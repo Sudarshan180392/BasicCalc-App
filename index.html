@@ -12,16 +12,40 @@
     <div class="container">
  <h1>Calculator</h1>
     
-   <div class="inputs">
-    <input type="number"class="frno">
-    <input type="number" class="secno">
-   </div>
-   <div class="btn-container">
-    <button class="add">Add + </button>
-    <button class="sub">Subtract - </button>
-    <button class="mult">Multiply x</button>
-    <button class="div">Divide ÷ </button>
-   </div>
-   </div>
+   <button id="basicops" onclick="showCalc('basic')">Basic Ops</button>
+    <button id="trig" onclick="showCalc('Trignometric')">Trignometric Ops</button>
+
+    <!-- Basic Calculator Section -->
+    <div id="basic" class="calc-section">
+      <div class="inputs">
+        <input type="number" class="frno" placeholder="Enter first number">
+        <input type="number" class="secno" placeholder="Enter second number">
+      </div>
+      <div class="btn-container">
+        <button class="add">Add + </button>
+        <button class="sub">Subtract - </button>
+        <button class="mult">Multiply ×</button>
+        <button class="div">Divide ÷</button>
+      </div>
+    </div>
+
+    <!-- Trignometric Calculator Section -->
+    <div id="Trignometric" class="calc-section" style="display: none;">
+      <input type="number" id="trig-input" placeholder="Enter angle in degrees">
+      <div class="trigbtns">
+        <button onclick="doTrig('sin')">Sine</button>
+        <button onclick="doTrig('cos')">Cosine</button>
+        <button onclick="doTrig('tan')">Tangent</button>
+        <button onclick="doTrig('cosec')">Cosec</button>
+        <button onclick="doTrig('sec')">Sec</button>
+        <button onclick="doTrig('cot')">Cot</button>
+
+      </div>
+    </div>
+
+    <!-- Result Area -->
+     
+    <div class="result">Result will appear here</div>
+  </div>
 </body>
 </html>

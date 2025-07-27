@@ -1,5 +1,12 @@
 # 🧮 Javascript Calculator App
 
+## 🖥️ How to Use
+
+1. Clone the repository:
+
+(https://sudarshan180392.github.io/BasicCalc-App/)
+
+
 A simple, responsive calculator built with **HTML, CSS, and JavaScript** that supports:
 - Basic Arithmetic Operations
 - Trigonometric Functions (sin, cos, tan)
@@ -36,12 +43,6 @@ A simple, responsive calculator built with **HTML, CSS, and JavaScript** that su
 
 ---
 
-## 🖥️ How to Use
-
-1. Clone the repository:
-https://sudarshan180392.github.io/BasicCalc-App/
 
 
-https://sudarshan180392.github.io/BasicCalc-App/
 
-To access use this
